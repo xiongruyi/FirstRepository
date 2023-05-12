@@ -1,0 +1,717 @@
+<mxfile host="app.diagrams.net" modified="2023-05-12T09:00:32.494Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="PlFqkv-Eqmnc-InxvuaK" version="21.1.7" type="github" pages="4">
+  <diagram id="w6VFcHHxB--ad3jfWZ22" name="简介">
+    <mxGraphModel dx="1246" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PwhToGHZiCfDNsgUP2Xh-1" value="entity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="20" y="90" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2S-FgI6vQ4ivJ39PEZ0k-1" value="line" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="170" y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="abowrIAOZG67Imgp6kZn-1" value="Utilization" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="354" y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4k7NnCJ3npqI9FlN2UEQ-1" value="Work Order" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="540" y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4k7NnCJ3npqI9FlN2UEQ-2" value="WebPortal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="640" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4k7NnCJ3npqI9FlN2UEQ-3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="60" as="sourcePoint" />
+            <mxPoint x="600" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4k7NnCJ3npqI9FlN2UEQ-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="60" as="sourcePoint" />
+            <mxPoint x="320" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4k7NnCJ3npqI9FlN2UEQ-5" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PwhToGHZiCfDNsgUP2Xh-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="110" as="sourcePoint" />
+            <mxPoint x="70" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4k7NnCJ3npqI9FlN2UEQ-6" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2S-FgI6vQ4ivJ39PEZ0k-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="110" as="sourcePoint" />
+            <mxPoint x="230" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4k7NnCJ3npqI9FlN2UEQ-7" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="abowrIAOZG67Imgp6kZn-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="110" as="sourcePoint" />
+            <mxPoint x="414" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4k7NnCJ3npqI9FlN2UEQ-8" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4k7NnCJ3npqI9FlN2UEQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="110" as="sourcePoint" />
+            <mxPoint x="600" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UcAbq2q_P1drOt3VCwDW-1" value="车间、厂房" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="130" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UcAbq2q_P1drOt3VCwDW-2" value="生产线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UcAbq2q_P1drOt3VCwDW-3" value="设备利用率" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="130" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UcAbq2q_P1drOt3VCwDW-4" value="工单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="130" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UcAbq2q_P1drOt3VCwDW-7" value="&lt;br&gt;工单包含两部分，一个是用mesclient创建的工单，另一个是从webportal生产线中创建的工单&lt;br&gt;由webportal创建的工单和mesclient创建的工单不是一个概念，在mesclient中，由process创建工单，一个工单可对用多个步骤，在数据库中，一个wo对应多条job记录，在webportal中，由line创建工单，一个wo仅仅对应一条job记录。" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="20" y="180" width="640" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6J6DaBvvJuXs4L7Z6N8t-8" value="wo:工单" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="20" y="347" width="140" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="6J6DaBvvJuXs4L7Z6N8t-9" value="job:任务" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="20" y="417" width="140" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="6J6DaBvvJuXs4L7Z6N8t-10" value="job_bom:job的物料清单" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="195" y="417" width="140" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="6J6DaBvvJuXs4L7Z6N8t-11" value="job_event:job状态更新信息" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="390" y="417" width="140" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="6J6DaBvvJuXs4L7Z6N8t-12" value="job_exec：job的执行情况" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="550" y="417" width="150" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="6J6DaBvvJuXs4L7Z6N8t-13" value="job_history：记录job开始和结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="20" y="492" width="150" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="6J6DaBvvJuXs4L7Z6N8t-14" value="job_hour_history：记录job每个小时的变化" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="204" y="492" width="150" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="6J6DaBvvJuXs4L7Z6N8t-15" value="&lt;font color=&quot;#ff0000&quot;&gt;job_route：job的路线&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="390" y="500" width="150" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="6J6DaBvvJuXs4L7Z6N8t-16" value="job_state：定义job状态" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="570" y="497" width="150" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="6J6DaBvvJuXs4L7Z6N8t-18" value="item_prod:产量" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="20" y="577" width="140" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="6J6DaBvvJuXs4L7Z6N8t-20" value="因为从line创建的工单，只有一个job,所以不存在流程，所以jobroute表中没有数据" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="10" y="660" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8iJLZNNU7fepfUbS-riN-1" value="ent:实体" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="20" y="270" width="140" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="MOQ8WAydNitPtBicjSfi-1" value="Webportal 面向车间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="40" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MOQ8WAydNitPtBicjSfi-2" value="MesClient面向管理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="10" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="数据库访问" id="Y-2RMGvb1qoSbeowr90Q">
+    <mxGraphModel dx="1246" dy="1617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ECfOq5rRNV0l5vj3YB-2-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="80" width="140" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="ECfOq5rRNV0l5vj3YB-2-4" value="Web前端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ECfOq5rRNV0l5vj3YB-2-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="611" y="80" width="366" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="ECfOq5rRNV0l5vj3YB-2-6" value="MESMiddlewareHost" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="647" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ECfOq5rRNV0l5vj3YB-2-23" value="Mes.WebApi.dll(Controller)" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="624" y="120" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ECfOq5rRNV0l5vj3YB-2-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.005;entryY=0.393;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ECfOq5rRNV0l5vj3YB-2-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="354" y="300" as="sourcePoint" />
+            <mxPoint x="590" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="374" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECfOq5rRNV0l5vj3YB-2-26" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Source Han Sans CN&amp;quot;; text-align: center; vertical-align: middle; color: rgb(25, 25, 26); font-size: 14px;&quot;&gt;&lt;p&gt;FactMES.Server.Communication.dll&lt;/p&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="624" y="420" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ECfOq5rRNV0l5vj3YB-2-27" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Source Han Sans CN&amp;quot;; text-align: center; vertical-align: middle; color: rgb(25, 25, 26); font-size: 14px;&quot;&gt;&lt;p&gt;&lt;/p&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: middle;&quot;&gt;&lt;p&gt;FactMES.Server.DataAccess&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="624" y="520" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ECfOq5rRNV0l5vj3YB-2-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ECfOq5rRNV0l5vj3YB-2-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="793.5" y="470" as="sourcePoint" />
+            <mxPoint x="793.5" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECfOq5rRNV0l5vj3YB-2-31" value="访问数据库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="470" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ECfOq5rRNV0l5vj3YB-2-32" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;与数据库交互&lt;/font&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-10" width="770" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ECfOq5rRNV0l5vj3YB-2-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="340" as="sourcePoint" />
+            <mxPoint x="485" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECfOq5rRNV0l5vj3YB-2-37" value="&lt;div&gt;mesdbcommand.RecordsAffected = base.ExecuteNonQuery(mesdbcommand.SessionId, mesdbcommand.StoredProcedureName, mesdbcommand.CommandTimeout, mesdbcommand.StoredProcedureParameters, mesdbcommand.XMLSource);&lt;/div&gt;&lt;div&gt;      &lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="850" width="1330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ECfOq5rRNV0l5vj3YB-2-38" value="MESConnection" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="820" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ECfOq5rRNV0l5vj3YB-2-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ECfOq5rRNV0l5vj3YB-2-41" target="ECfOq5rRNV0l5vj3YB-2-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ECfOq5rRNV0l5vj3YB-2-41" value="Mes.WebApi.Shared.dll(IRepository)每个表的接口" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="624" y="220" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ECfOq5rRNV0l5vj3YB-2-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ECfOq5rRNV0l5vj3YB-2-42" target="ECfOq5rRNV0l5vj3YB-2-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ECfOq5rRNV0l5vj3YB-2-42" value="Mes.WebApi.Middleware.Adaptor.dll(Repository)接口实现" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="624" y="330" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ECfOq5rRNV0l5vj3YB-2-49" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ECfOq5rRNV0l5vj3YB-2-23" target="ECfOq5rRNV0l5vj3YB-2-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="200" as="sourcePoint" />
+            <mxPoint x="870" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ECfOq5rRNV0l5vj3YB-2-58" value="拼接xml" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="370" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hNnQPGaKmL5EdFCbu1D-" name="从line流转工单">
+    <mxGraphModel dx="2900" dy="1617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kO31_HReVvVpV8a1mftI-6" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-950" y="-90" width="340" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--1" value="&lt;font color=&quot;#ff0000&quot;&gt;MesClient&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="-80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--6" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-950" y="130" width="340" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--8" value="&lt;font color=&quot;#ff0000&quot;&gt;WebPortal&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-930" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--80" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BXNH1AZqMsPXHqH8wDw--79" target="BXNH1AZqMsPXHqH8wDw--81">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-730" y="-5.5" as="sourcePoint" />
+            <mxPoint x="-440" y="-5.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--81" value="数据库表" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="-40" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--82" value="ent" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="BXNH1AZqMsPXHqH8wDw--81">
+          <mxGeometry x="40" y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--83" value="调用Add方法，添加entity" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-573" y="-40" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--84" value="&lt;font color=&quot;#0000ff&quot;&gt;FactMES.Clients.Extensions.PhysicalEntities.dll&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-600" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BXNH1AZqMsPXHqH8wDw--85" target="BXNH1AZqMsPXHqH8wDw--101">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-780" y="290" />
+              <mxPoint x="-780" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--85" value="添加Line" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="170" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--86" value="数据库表" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="170" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--87" value="line" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="BXNH1AZqMsPXHqH8wDw--86">
+          <mxGeometry x="40" y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--88" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-700" y="205" as="sourcePoint" />
+            <mxPoint x="-300" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--89" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(51, 0, 0); background-color: initial;&quot;&gt;车间、厂房等&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-965" y="-20" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--90" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="BXNH1AZqMsPXHqH8wDw--79">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-730" y="-5.5" as="sourcePoint" />
+            <mxPoint x="-300" y="-5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--79" value="添加Physical Entity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="-40" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--91" value="&lt;div style=&quot;text-align: left;&quot;&gt;生产线&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-957" y="190" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="BXNH1AZqMsPXHqH8wDw--94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-461.5" y="260" as="targetPoint" />
+            <mxPoint x="-461" y="210" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-461" y="313" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--92" value="调用API(POST api/line)，添加line" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-573" y="170" width="223" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--94" value="数据库表" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="260" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--95" value="line_ent_link" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="BXNH1AZqMsPXHqH8wDw--94">
+          <mxGeometry x="40" y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--97" value="调用API(PUT api/line/{id})，添加line_ent_link" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="260" width="223" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--100" value="line和entity的关系通过表line_ent_link关联" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="290" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--101" value="添加WorkOrder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="350" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--104" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kO31_HReVvVpV8a1mftI-6" target="BXNH1AZqMsPXHqH8wDw--6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-530" y="100" as="sourcePoint" />
+            <mxPoint x="-480" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--106" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-700" y="384.5" as="sourcePoint" />
+            <mxPoint x="-300" y="384.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--107" value="调用API(POST api/workOrder)，添加工单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-571.5" y="350" width="231.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--108" value="数据库表" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="350" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="BXNH1AZqMsPXHqH8wDw--109" value="wo" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="BXNH1AZqMsPXHqH8wDw--108">
+          <mxGeometry x="20" y="30" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tMYvb404gxSS4VAf3lZy-1" value="job" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="BXNH1AZqMsPXHqH8wDw--108">
+          <mxGeometry x="110" y="30" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gPVIPhQxuclK21gQ5NE_-1" value="job_exec" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="BXNH1AZqMsPXHqH8wDw--108">
+          <mxGeometry x="20" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-LWnUrLj7S6lNbmVDkNa-1" value="job_bom" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="BXNH1AZqMsPXHqH8wDw--108">
+          <mxGeometry x="110" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tMYvb404gxSS4VAf3lZy-2" value="从line生成的订单只有一个job,生成job关联的物料清单，&lt;br&gt;生成job执行数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-89" y="395" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-LWnUrLj7S6lNbmVDkNa-2" target="HrgSY5uofMyUzoskAn82-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-LWnUrLj7S6lNbmVDkNa-2" value="Start Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-855" y="500" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-LWnUrLj7S6lNbmVDkNa-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="-LWnUrLj7S6lNbmVDkNa-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-780.5" y="420" as="sourcePoint" />
+            <mxPoint x="-780" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-780" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-705" y="534.5" as="sourcePoint" />
+            <mxPoint x="-305" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-2" value="调用API(PUT api/Jobs)，启动job" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-581.5" y="500" width="231.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-3" value="数据库表" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="480" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-4" value="job" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="HrgSY5uofMyUzoskAn82-3">
+          <mxGeometry x="20" y="30" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-5" value="job_event" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="HrgSY5uofMyUzoskAn82-3">
+          <mxGeometry x="110" y="30" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-6" value="job_exec" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="HrgSY5uofMyUzoskAn82-3">
+          <mxGeometry x="20" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-7" value="job_history" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="HrgSY5uofMyUzoskAn82-3">
+          <mxGeometry x="110" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-15" value="job_hour_history" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="HrgSY5uofMyUzoskAn82-3">
+          <mxGeometry x="20" y="120" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-8" value="修改job表状态字段state_cd=3(Running)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="500" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-9" value="添加job_event表job启动事件记录" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-89" y="520" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-11" value="修改job_exec表执行数据,记录当前entity正在执行哪个job" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-89" y="540" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-12" value="添加Job_history表启动执行历史" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-89" y="560" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HrgSY5uofMyUzoskAn82-13" target="HrgSY5uofMyUzoskAn82-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-13" value="Add Production" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-855" y="670" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-14" value="添加Job_hour_history表启动历史" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="585" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-705" y="704.5" as="sourcePoint" />
+            <mxPoint x="-305" y="705" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-17" value="调用API(POST api/production)，添加产量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="670" width="231.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-18" value="数据库表" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="665" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-19" value="item_prod" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="HrgSY5uofMyUzoskAn82-18">
+          <mxGeometry x="60" y="40" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-24" value="添加产量" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="690" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-26" value="End Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-855" y="800" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-28" value="数据库表" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="770" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-29" value="job" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="HrgSY5uofMyUzoskAn82-28">
+          <mxGeometry x="20" y="30" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-30" value="job_event" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="HrgSY5uofMyUzoskAn82-28">
+          <mxGeometry x="110" y="30" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-31" value="job_exec" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="HrgSY5uofMyUzoskAn82-28">
+          <mxGeometry x="20" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-32" value="job_history" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="HrgSY5uofMyUzoskAn82-28">
+          <mxGeometry x="110" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-33" value="job_hour_history" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="HrgSY5uofMyUzoskAn82-28">
+          <mxGeometry x="20" y="120" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-705" y="834.5" as="sourcePoint" />
+            <mxPoint x="-305" y="835" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-35" value="调用API(PUT api/Jobs)，关闭job" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-581.5" y="790" width="231.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-39" value="修改job表状态字段state_cd=4(Complete)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="770" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-40" value="添加job_event表job关闭事件记录" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="800" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-41" value="修改job_exec表执行数据" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="830" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-42" value="修改Job_history表job结束事件" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-79" y="860" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HrgSY5uofMyUzoskAn82-43" value="添加Job_hour_history表结束历史" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-79" y="890" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3PLlViQox-yloPBmhsxS-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;工单&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-957" y="370" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3PLlViQox-yloPBmhsxS-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;启动job&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-957" y="510" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3PLlViQox-yloPBmhsxS-3" value="&lt;div style=&quot;text-align: left;&quot;&gt;添加产量&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-965" y="690" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3PLlViQox-yloPBmhsxS-4" value="&lt;div style=&quot;text-align: left;&quot;&gt;结束job&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-965" y="820" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0NN2UKnmVyDw6jsucVFK-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;从line流转工单&lt;/font&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-950" y="-160" width="970" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OXaNW38DUcQqDs5AH_kj" name="从MesClient流转工单">
+    <mxGraphModel dx="2900" dy="1617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="m8Iv--2wkbKNrvpkAO7U-1" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-950" y="-90" width="340" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="m8Iv--2wkbKNrvpkAO7U-2" value="&lt;font color=&quot;#ff0000&quot;&gt;MesClient&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="-80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m8Iv--2wkbKNrvpkAO7U-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m8Iv--2wkbKNrvpkAO7U-10" target="m8Iv--2wkbKNrvpkAO7U-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-730" y="-5.5" as="sourcePoint" />
+            <mxPoint x="-440" y="-5.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8Iv--2wkbKNrvpkAO7U-4" value="数据库表" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="-40" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m8Iv--2wkbKNrvpkAO7U-5" value="ent" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="m8Iv--2wkbKNrvpkAO7U-4">
+          <mxGeometry x="40" y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m8Iv--2wkbKNrvpkAO7U-6" value="调用Add方法，添加entity" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-573" y="-40" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m8Iv--2wkbKNrvpkAO7U-7" value="&lt;font color=&quot;#0000ff&quot;&gt;FactMES.Clients.Extensions.PhysicalEntities.dll&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-600" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m8Iv--2wkbKNrvpkAO7U-8" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(51, 0, 0); background-color: initial;&quot;&gt;车间、厂房等&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-965" y="-20" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m8Iv--2wkbKNrvpkAO7U-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="m8Iv--2wkbKNrvpkAO7U-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-730" y="-5.5" as="sourcePoint" />
+            <mxPoint x="-300" y="-5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UtxQ0q_baEUznlxgqSyq-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m8Iv--2wkbKNrvpkAO7U-10" target="-vZsAxc0fN_alpMLYccV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m8Iv--2wkbKNrvpkAO7U-10" value="添加Physical Entity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="-40" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-vZsAxc0fN_alpMLYccV-1" value="添加WorkOrder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="90" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-vZsAxc0fN_alpMLYccV-2" value="调用AddWorkOrderByProcessID方法&lt;br&gt;创建WorkOrder,并添加job" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-573" y="80" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-vZsAxc0fN_alpMLYccV-3" value="数据库表" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="50" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="58lnes9MR5ac7X_bAORK-1" value="wo" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="-vZsAxc0fN_alpMLYccV-3">
+          <mxGeometry x="20" y="30" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="58lnes9MR5ac7X_bAORK-2" value="job" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="-vZsAxc0fN_alpMLYccV-3">
+          <mxGeometry x="110" y="30" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="58lnes9MR5ac7X_bAORK-3" value="job_exec" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="-vZsAxc0fN_alpMLYccV-3">
+          <mxGeometry x="20" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="58lnes9MR5ac7X_bAORK-4" value="job_bom" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="-vZsAxc0fN_alpMLYccV-3">
+          <mxGeometry x="110" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rM4CpHq-W2z8DlknVNmW-2" value="job_route" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="-vZsAxc0fN_alpMLYccV-3">
+          <mxGeometry x="20" y="110" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-vZsAxc0fN_alpMLYccV-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-vZsAxc0fN_alpMLYccV-1" target="-vZsAxc0fN_alpMLYccV-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-730" y="104.57999999999993" as="sourcePoint" />
+            <mxPoint x="-440" y="104.57999999999993" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-vZsAxc0fN_alpMLYccV-7" value="&lt;font color=&quot;#3333ff&quot;&gt;FactMES.Clients.Extensions.WorkOrderAndJob.dll&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="130" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hQe5Pv4E1NT9kfISqWVT-1" value="从mesclient生成的订单一个步骤对应一个job，&lt;br&gt;如果有2个步骤，则生成2条job记录，对应job_bom也有2条记录，一个job对应一条bom记录" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-89" y="50" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UtxQ0q_baEUznlxgqSyq-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#330000&quot;&gt;工单&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-965" y="90" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rM4CpHq-W2z8DlknVNmW-1" value="生成job执行数据job_exec" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="100" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rM4CpHq-W2z8DlknVNmW-3" value="生成job步骤路线数据job_route" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="140" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EdH7o85XaFO1MVblrLND-1" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-950" y="220" width="340" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="EdH7o85XaFO1MVblrLND-2" value="&lt;font color=&quot;#ff0000&quot;&gt;WebPortal&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-930" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2zEzVvKdgkXbrMDu49RG-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V2rtMjXlr6ZIKTHCcIWk-1" target="2zEzVvKdgkXbrMDu49RG-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V2rtMjXlr6ZIKTHCcIWk-1" value="Start Job（第一个）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-855" y="280" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="V2rtMjXlr6ZIKTHCcIWk-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-705" y="314.5" as="sourcePoint" />
+            <mxPoint x="-305" y="314.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GjaHgYyAgwi_H7NKMiNI-1" value="调用API(PUT api/Jobs)，启动job" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-581.5" y="270" width="231.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hMCojGpiLY4WYugBBok0-1" value="数据库表" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="235" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="hMCojGpiLY4WYugBBok0-2" value="job" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="hMCojGpiLY4WYugBBok0-1">
+          <mxGeometry x="20" y="30" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hMCojGpiLY4WYugBBok0-3" value="job_event" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="hMCojGpiLY4WYugBBok0-1">
+          <mxGeometry x="110" y="30" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hMCojGpiLY4WYugBBok0-4" value="job_exec" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="hMCojGpiLY4WYugBBok0-1">
+          <mxGeometry x="20" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hMCojGpiLY4WYugBBok0-5" value="job_history" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="hMCojGpiLY4WYugBBok0-1">
+          <mxGeometry x="110" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hMCojGpiLY4WYugBBok0-6" value="job_hour_history" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="hMCojGpiLY4WYugBBok0-1">
+          <mxGeometry x="20" y="120" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hMCojGpiLY4WYugBBok0-7" value="添加job_event表第一个job启动事件记录" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="260" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hMCojGpiLY4WYugBBok0-8" value="修改job_exec表执行数据" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="290" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hMCojGpiLY4WYugBBok0-9" value="添加Job_history表第一个job启动执行历史" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="320" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hMCojGpiLY4WYugBBok0-10" value="添加Job_hour_history表第一个job启动历史" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="340" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6Ioo_u7YHG0RJ5o1VDv8-1" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;修改第一个job表状态字段state_cd=3(Running)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="230" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9tk6-p1TlQ7NT9gjjDfv-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2zEzVvKdgkXbrMDu49RG-1" target="9tk6-p1TlQ7NT9gjjDfv-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2zEzVvKdgkXbrMDu49RG-1" value="Add Production" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-855" y="395" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2zEzVvKdgkXbrMDu49RG-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m8Iv--2wkbKNrvpkAO7U-1" target="EdH7o85XaFO1MVblrLND-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-530" y="210" as="sourcePoint" />
+            <mxPoint x="-480" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ldp_dw7lGzsHHBWIEZI6-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-705" y="429.5" as="sourcePoint" />
+            <mxPoint x="-305" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TTD_4Hp14fk9pK1iLxmW-1" value="调用API(POST api/production)，添加产量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-588.75" y="380" width="231.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s1cLqeW5NXqun19zD11V-1" value="数据库表" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="410" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s1cLqeW5NXqun19zD11V-2" value="item_prod" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="s1cLqeW5NXqun19zD11V-1">
+          <mxGeometry x="60" y="40" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tA8qS1DatqGkevrMsRDK-1" value="添加第一个步骤的产量" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="435" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ee543I1SkVo1GU0w325T-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9tk6-p1TlQ7NT9gjjDfv-1" target="ee543I1SkVo1GU0w325T-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9tk6-p1TlQ7NT9gjjDfv-1" value="End Job" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-855" y="540" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9tk6-p1TlQ7NT9gjjDfv-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-705" y="574.5" as="sourcePoint" />
+            <mxPoint x="-305" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6NXbX77OWsVu1j4tI5lG-1" value="调用API(PUT api/Jobs)，关闭job" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="540" width="231.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WWGtYddT0inBNlcCx9ow-1" value="数据库表" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="510" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="WWGtYddT0inBNlcCx9ow-2" value="job" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WWGtYddT0inBNlcCx9ow-1">
+          <mxGeometry x="20" y="30" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WWGtYddT0inBNlcCx9ow-3" value="job_event" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WWGtYddT0inBNlcCx9ow-1">
+          <mxGeometry x="110" y="30" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WWGtYddT0inBNlcCx9ow-4" value="job_exec" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WWGtYddT0inBNlcCx9ow-1">
+          <mxGeometry x="20" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WWGtYddT0inBNlcCx9ow-5" value="job_history" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WWGtYddT0inBNlcCx9ow-1">
+          <mxGeometry x="110" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WWGtYddT0inBNlcCx9ow-6" value="job_hour_history" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WWGtYddT0inBNlcCx9ow-1">
+          <mxGeometry x="20" y="120" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WWGtYddT0inBNlcCx9ow-7" value="添加job_event表第一个job关闭事件记录，&lt;font color=&quot;#ff0000&quot;&gt;第二个jobReady记录&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="540" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WWGtYddT0inBNlcCx9ow-8" value="修改job_exec表执行数据，记录当前entity正在执行哪个job" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="570" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WWGtYddT0inBNlcCx9ow-9" value="修改Job_history表第一个job结束事件" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-79" y="600" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ee543I1SkVo1GU0w325T-1" value="Start Job（第二个）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-855" y="650" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ee543I1SkVo1GU0w325T-5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" source="EdH7o85XaFO1MVblrLND-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-830" y="770" as="sourcePoint" />
+            <mxPoint x="-780" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ee543I1SkVo1GU0w325T-6" value="执行直到所有job完成" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="840" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HnoAz7swEmqy9Q4YuYbI-1" value="修改第一个job表状态字段state_cd=4(Complete)，&lt;font color=&quot;#ff0000&quot;&gt;第二个jobstate_cd=2(Ready)状态的记录&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-79" y="510" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HnoAz7swEmqy9Q4YuYbI-2" value="修改Job_hour_history表第一个job结束历史" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-79" y="630" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qRdQiBxLAzu-rKS8Lesm-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;从MesClient流转工单&lt;/font&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-950" y="-160" width="970" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
